@@ -122,3 +122,11 @@ mobile scrollWidth [ 390, 390 ] errors []
 At 390 px a first pass found the gate's threshold grid at 437 px wide (an inline grid style overrode the mobile rule). Fixed by moving it to a `.grid-gate` class that collapses to one column; re-run above.
 
 No independent runs by anyone else are recorded here.
+
+### Demo video checks
+
+```
+ffprobe: h264 1080x1920 30/1 + aac, duration=78.400000
+ffmpeg silencedetect (noise=-40dB, d=1.2): no silent spans reported
+container tags: major_brand, handler_name, vendor_id only (no encoder or creation tags)
+```
