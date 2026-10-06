@@ -1,0 +1,27 @@
+{
+  "name": "fleeksort-category-readiness",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Independent concept: a grading-agreement evaluation harness and readiness gate for a new category bet on a B2B secondhand clothing marketplace.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:pages": "NEXT_PUBLIC_BASE_PATH=/fleeksort-category-readiness next build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.11",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.1.0",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
